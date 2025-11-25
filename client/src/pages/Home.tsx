@@ -204,11 +204,11 @@ export default function Home() {
         <div className="container py-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
-              <img src={APP_LOGO} alt={APP_TITLE} className="h-6 w-6" />
-              <span className="text-sm font-medium">{APP_TITLE}</span>
+              <img src={APP_LOGO} alt="Gestor+" className="h-6 w-6" />
+              <span className="text-sm font-medium">Gestor+</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              © 2025 {APP_TITLE}. Gestão financeira pessoal inteligente.
+              © 2025 Gestor+. Gestão financeira pessoal inteligente.
             </p>
           </div>
         </div>
