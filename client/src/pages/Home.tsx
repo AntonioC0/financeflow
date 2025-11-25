@@ -39,8 +39,8 @@ export default function Home() {
       <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src={APP_LOGO} alt={APP_TITLE} className="h-8 w-8" />
-            <span className="text-xl font-bold text-primary">{APP_TITLE}</span>
+            <img src={APP_LOGO} alt="Gestor+" className="h-8 w-8" />
+            <span className="text-xl font-bold text-primary">Gestor+</span>
           </div>
           <Button asChild>
             <a href={getLoginUrl()}>Entrar</a>
