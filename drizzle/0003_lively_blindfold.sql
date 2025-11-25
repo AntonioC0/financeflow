@@ -1,0 +1,1 @@
+ALTER TABLE `userSettings` ADD `dateFormat` varchar(20) DEFAULT 'DD/MM/YYYY' NOT NULL;

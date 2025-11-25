@@ -1,0 +1,1 @@
+ALTER TABLE `userSettings` ADD `hasCompletedTour` boolean DEFAULT false NOT NULL;

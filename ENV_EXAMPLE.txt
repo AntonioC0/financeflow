@@ -1,0 +1,33 @@
+# EXEMPLO DE ARQUIVO .env
+# Copie este conteúdo para um arquivo chamado .env na raiz do projeto
+# e preencha com seus valores reais
+
+# Banco de Dados
+DATABASE_URL=mysql://usuario:senha@localhost:3306/gestorplus
+
+# Autenticação (gere uma string aleatória longa e segura)
+JWT_SECRET=sua-chave-secreta-super-segura-aqui
+
+# Ambiente
+NODE_ENV=development
+PORT=3000
+
+# Aplicação
+VITE_APP_TITLE=Gestor+ - Seu Gestor Financeiro
+VITE_APP_LOGO=/logo.png
+
+# Armazenamento S3 (opcional - se usar AWS S3)
+# AWS_REGION=us-east-1
+# AWS_ACCESS_KEY_ID=sua_access_key
+# AWS_SECRET_ACCESS_KEY=sua_secret_key
+# S3_BUCKET_NAME=gestorplus-files
+
+# URLs (para produção)
+# FRONTEND_URL=https://seudominio.com
+# BACKEND_URL=https://api.seudominio.com
+
+# SMTP para envio de emails (opcional)
+# SMTP_HOST=smtp.gmail.com
+# SMTP_PORT=587
+# SMTP_USER=seu-email@gmail.com
+# SMTP_PASS=sua-senha-app
